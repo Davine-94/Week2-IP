@@ -11,6 +11,10 @@
     height: 20vh;
 
 }
+.akan {
+    text-decoration-color: aqua;
+   
+}
 .navigation ul {
     list-style: none;
     text-decoration: none;
