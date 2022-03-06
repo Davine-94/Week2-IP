@@ -70,3 +70,39 @@ a.home, a:hover {
     font-style: oblique;
     color: black;
 }
+.aName {
+    background-image: url('ocean.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+}
+.dBirth {
+    background-color: black;
+    height: 20px;
+    font-weight: bold;
+    color: white;
+}
+.genderBox {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 20px;
+    font-weight: bold;
+}
+#dTe {
+    background-color: white;
+    height: 10vh;
+    color: black;
+    font-weight: bold;
+}
+.gSelection {
+    background-image: url("ghana.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-weight: bold;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
