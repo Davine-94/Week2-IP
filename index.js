@@ -1,10 +1,10 @@
-const arrayAkanMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-const arrayAkanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+const arrayMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+const arrayFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
     function caseDate() {
         let dInput = document.getElementById('dTe').value;
         console.log(dInput);
-        male = document.getElementById('mRadio'); // collecting from male radio
+        male = document.getElementById('mRadio'); 
         female = document.getElementById('fRadio');
     
         if(dInput == '') {
@@ -45,12 +45,12 @@ const arrayAkanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Am
     validate = () => {
         caseDate();
         if(male.checked) {
-            console.log(arrayAkanMale[d]);
-            document.getElementById("display").innerHTML =`Akan Name is ` + `<span>` + arrayAkanMale[d] + `</span>` + `<br>` + `Shows you are a Male born on ` + date.toLocaleString('en-us', {weekday : 'long'});
+            console.log(arrayMale[d]);
+            document.getElementById("display").innerHTML =`Akan Name is ` + `<span>` + arrayMale[d] + `</span>` + `<br>` + `Shows you are a Male born on ` + date.toLocaleString('en-us', {weekday : 'long'});
         }
         else if (female.checked) {
-            console.log(arrayAkanFemale[d]);
-            document.getElementById("display").innerHTML =`Akan Name is ` + `<span>` + arrayAkanFemale[d] + `</span>` + `<br>` + `Shows you are a Female born on ` + date.toLocaleString('en-us', {weekday : 'long'});
+            console.log(arrayFemale[d]);
+            document.getElementById("display").innerHTML =`Akan Name is ` + `<span>` + arrayFemale[d] + `</span>` + `<br>` + `Shows you are a Female born on ` + date.toLocaleString('en-us', {weekday : 'long'});
         }
     }
     
