@@ -8,30 +8,26 @@
 </head>
 <body>
     <h2>Akan Name Generator</h2>
-    <form class="form">
-        <label for ="f-name">
-            <input type="text" id="f-name">
-            First Name</label>
-        <label for ="l-name">
-            <input type="text" id="l-name">
-            Last Name</label>
-            <br>
-        <label for="birthday">Birthday
-            <input type="date" id="birthday">
-        </label>
-        <br>
-        <p>Please select your gender</p>
-        <label for="male">Male
-            <input type="radio" id="male">
-        </label>
-        <label for="female">female
-            <input type="radio" id="female">
-        </label>
-    
-        <input type="submit">
-        <p>Your Akan Name is</p>
-        
-    </form>
+    <p class="eName">Enter your Name</p> 
+        <input type="text" id="akName">
+    <p class="dBirth">Date of Birth</p>
+         <input type="date" id="dTe">
+    <p class="genderBox">Select your gender</p>
+    <div class="gSelection">
+        <div>
+            <label>
+                <input type="radio" id="fRadio" value="Female">Female
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" id="mRadio" value="Male">Male
+            </label>
+        </div>
+        <div class="cSubmit" onclick="buttonRead()">
+            <p>Find your Name</p>
+        </div>
+        <p id="display"></p>
 <script src="index.js"></script> 
 </body>
 </html>
