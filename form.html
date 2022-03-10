@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Your Akan Name</title>
 </head>
-<body>
+<body id="project">
     <h2 class="aName">Akan Name Generator</h2>
     <p class="dBirth">Date of Birth</p>
          <input type="date" id="dTe">
     <p class="genderBox">Gender</p>
     <div class="gSelection">
-        <div>
+        <form>
             <label>
                 <input type="radio" id="fRadio" value="Female">Female
             </label>
-        </div>
-        <div>
             <label>
                 <input type="radio" id="mRadio" value="Male">Male
             </label>
-        </div>
-        <div class="cSubmit" onclick="buttonRead()">
-            <p>Find your Name</p>
-        </div>
-        <p id="display"></p>
+        </form>
+    </div>
+    <div class="cSubmit" onclick="buttonRead()">
+        <p id="display">Check your Name</p>
+    </div>
+        
         
 
 <script src="index.js"></script> 

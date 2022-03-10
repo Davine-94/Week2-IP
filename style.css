@@ -8,7 +8,9 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background-color: chocolate;
+    background-image: url("https://i.pinimg.com/564x/bb/e4/a0/bbe4a0f0550ebf5326949fbafbe2e851.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 20vh;
 
 }
@@ -66,6 +68,7 @@ a.home, a:hover {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    background-color: aliceblue;
     background-image: url("proud.jpg");
     background-size: auto;
     background-color: gainsboro;
@@ -73,39 +76,62 @@ a.home, a:hover {
     font-style: normal;
     color: black;
 }
-.aName {
-    background-image: url('ocean.jpeg');
+#project {
+    margin: 0;
+    padding:0;
+    background-image: url("ocean.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 10vh;
 }
-.dBirth {
-    background-color: black;
-    height: 20px;
-    font-weight: bold;
-    color: white;
+.aName{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    color: beige;
+}
+.dBirth{
+    text-transform: uppercase; 
+    font-size: 40px;
+    margin: auto;
+    color:black;
+}
+.gSelection{
+  cursor: pointer;
+  font-size: 30px;
+  color: aliceblue;
 }
 .genderBox {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    height: 20px;
-    font-weight: bold;
-}
-#dTe {
-    background-color: white;
-    height: 10vh;
-    color: black;
-    font-weight: bold;
-}
-.gSelection {
-    background-image: url("ghana.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-weight: bold;
-    padding: auto;
+    text-transform: uppercase; 
+    font-size: 40px;
     margin: auto;
-    display: flex;
-    justify-content: space-around;
+    color:black;
+} 
+#fRadio {
+    cursor: pointer;
+    
 }
+
+#dTe {
+  margin:auto;
+  background-image: url("https://i.pinimg.com/564x/28/2c/5b/282c5b479328b989c4f91ce5c7de7848.jpg");
+  color: black;
+  width: 600px;
+  height: 70px;
+  border: none;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+#display {
+    border-radius: 1px;
+    border: 2px solid blueviolet;
+    width:600px;
+    background-image: url("https://i.pinimg.com/564x/28/2c/5b/282c5b479328b989c4f91ce5c7de7848.jpg");
+    font-size: 30px;
+    
+}
+
