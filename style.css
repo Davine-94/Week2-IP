@@ -54,20 +54,23 @@ a.home, a:hover {
     font-size: 15px;
     background-color: darksalmon;
     height:100vh;
+    
       
 }
 #home {
     background-image: url("image.jpg");
 }
-.info p{
+.container p{
     font-weight: bold;
-    display: flex;
     margin: auto;
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-image: url("proud.jpg");
+    background-size: auto;
+    background-color: gainsboro;
     height: 100vh;
-    font-style: oblique;
+    font-style: normal;
     color: black;
 }
 .aName {
