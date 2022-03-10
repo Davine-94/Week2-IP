@@ -3,18 +3,18 @@
     padding: 0;
 
 }
+#akan{
+    font-size: 60px;
+}
 
 .navigation {
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background-image: url("https://i.pinimg.com/564x/bb/e4/a0/bbe4a0f0550ebf5326949fbafbe2e851.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: chocolate;
     height: 20vh;
 
 }
-
 .navigation ul {
     list-style: none;
     text-decoration: none;
@@ -65,7 +65,8 @@ a.home, a:hover {
 .container p{
     font-weight: bold;
     margin: auto;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: aliceblue;
@@ -85,13 +86,16 @@ a.home, a:hover {
 }
 .aName{
     font-size: 50px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: darkslategray;
     color: beige;
 }
 .dBirth{
-    text-transform: uppercase; 
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
     font-size: 40px;
     margin: auto;
     color:black;
@@ -99,20 +103,34 @@ a.home, a:hover {
 .gSelection{
   cursor: pointer;
   font-size: 30px;
-  color: aliceblue;
+  color: black;
 }
 .genderBox {
-    text-transform: uppercase; 
     font-size: 40px;
     margin: auto;
     color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
+#formSelectors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
 #fRadio {
     cursor: pointer;
-    
-}
 
+}
+#mRadio {
+    cursor: pointer;
+
+}
 #dTe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin:auto;
   background-image: url("https://i.pinimg.com/564x/28/2c/5b/282c5b479328b989c4f91ce5c7de7848.jpg");
   color: black;
@@ -125,6 +143,11 @@ a.home, a:hover {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 5px;
+}
+.cSubmit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #display {
     border-radius: 1px;
