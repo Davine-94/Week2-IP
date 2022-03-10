@@ -5,6 +5,10 @@
 }
 #akan{
     font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: burlywood;
+    padding-top: 10px;
 }
 
 .navigation {
@@ -118,6 +122,7 @@ a.home, a:hover {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 20px;
+    width: auto;
 }
 #fRadio {
     cursor: pointer;
